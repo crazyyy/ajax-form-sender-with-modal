@@ -5,10 +5,8 @@
 @import 'import/lists';
 @import 'import/tables';
 @import 'import/mixin.scss';
-@import 'import/wordpress.scss';
 @import 'sprite';
 @import 'font_fontawesome';
-@import 'font_opensans';
 @import 'font_roboto';
 
 body {
@@ -121,7 +119,6 @@ article {
   @extend .clearfix;
 }
 
-
 footer {
   height: $footer;
   margin: $footer_margin auto 0;
@@ -131,5 +128,3 @@ footer {
     height: $footer;
   }
 }
-
-@import 'import/print';
